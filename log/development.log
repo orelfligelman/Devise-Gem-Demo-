@@ -342,3 +342,204 @@ Started GET "/assets/ideas.js?body=1" for 127.0.0.1 at 2014-12-02 17:13:43 -0500
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 17:13:43 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 17:22:41 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/ideas" for 127.0.0.1 at 2014-12-02 17:22:42 -0500
+Processing by IdeasController#index as HTML
+Completed 401 Unauthorized in 35ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-12-02 17:22:42 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.3ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (46.2ms)
+Completed 200 OK in 225ms (Views: 214.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:42 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-02 17:22:42 -0500
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2014-12-02 17:22:42 -0500
+
+
+Started GET "/assets/ideas.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:42 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 17:22:42 -0500
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-12-02 17:22:56 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S4eeZinA2f390jWD5/RP82bYdkjZkai43KHEKt4lwF4=", "user"=>{"email"=>"orelmfligelman@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (20.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'orelmfligelman@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 155ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S4eeZinA2f390jWD5/RP82bYdkjZkai43KHEKt4lwF4=", "user"=>{"email"=>"orelmfligelman@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.3ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 122ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2014-12-02 17:22:56 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-02 17:22:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 17:22:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:56 -0500
+
+
+Started GET "/assets/ideas.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:56 -0500
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-12-02 17:22:59 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 76ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 17:22:59 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-02 17:22:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:59 -0500
+
+
+Started GET "/assets/ideas.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 17:22:59 -0500
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2014-12-02 17:22:59 -0500
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-12-02 17:23:06 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.3/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-12-02 17:23:11 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S4eeZinA2f390jWD5/RP82bYdkjZkai43KHEKt4lwF4=", "user"=>{"email"=>"orelmfligelman@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'orelmfligelman@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["current_sign_in_at", "2014-12-02 22:23:12.076707"], ["sign_in_count", 2], ["updated_at", "2014-12-02 22:23:12.078015"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/ideas
+Completed 302 Found in 169ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/ideas" for 127.0.0.1 at 2014-12-02 17:23:12 -0500
+Processing by IdeasController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mIdea Load (41.4ms)[0m  SELECT "ideas".* FROM "ideas"
+  Rendered ideas/index.html.erb within layouts/application (42.6ms)
+Completed 200 OK in 115ms (Views: 60.6ms | ActiveRecord: 41.6ms)
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2014-12-02 17:23:12 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-02 17:23:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 17:23:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 17:23:12 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 17:23:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 17:23:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 17:23:12 -0500
+
+
+Started GET "/assets/ideas.js?body=1" for 127.0.0.1 at 2014-12-02 17:23:12 -0500
+
+
+Started GET "/ideas/new" for 127.0.0.1 at 2014-12-02 17:23:26 -0500
+Processing by IdeasController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered ideas/_form.html.erb (12.9ms)
+  Rendered ideas/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 72ms (Views: 69.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 17:41:24 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/ideas" for 127.0.0.1 at 2014-12-02 17:41:24 -0500
+Processing by IdeasController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mIdea Load (0.4ms)[0m  [1mSELECT "ideas".* FROM "ideas"[0m
+  Rendered ideas/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 265ms (Views: 229.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-02 17:41:25 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-12-02 17:41:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-02 17:41:25 -0500
+
+
+Started GET "/assets/ideas.css?body=1" for 127.0.0.1 at 2014-12-02 17:41:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-02 17:41:25 -0500
+
+
+Started GET "/assets/ideas.js?body=1" for 127.0.0.1 at 2014-12-02 17:41:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-02 17:41:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-02 17:41:25 -0500
